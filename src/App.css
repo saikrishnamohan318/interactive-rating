@@ -1,38 +1,78 @@
-.App {
+body{
+  background-color: hsl(216, 12%, 8%);
+}
+.container{
+  background-color: hsl(213, 19%, 18%);
+  width: 28%;
+  height: 325px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: auto;
+  transform: translateY(40%);
+}
+#div2 {
+  display: none;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img{
+  background-color: hsl(217, 12%, 63%);
+  padding: 10px;
+  border-radius: 20px;
+}
+.h1{
+  color: hsl(0, 0%, 100%);
+}
+.para{
+  color: hsl(216, 12%, 54%);
+}
+.rating {
+  margin-left: 30px;
+  display: none;
+}
+label {
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(216, 12%, 8%);
+  width: 15px;
+  height: 15px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  margin: 15px 15px 15px 18px;
+  position: relative;
+  top: 15px;
+}
+label:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+#addrating {
+  color: hsl(25, 97%, 53%);
+  background-color: rgb(88, 88, 88);
+  padding: 5px;
+  width: 50%;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  word-spacing: 5px;
+}
+.submit {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: hsl(25, 97%, 53%);
+  padding: 5px 100px 5px 100px;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: absolute;
+  bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit:hover {
+  color: hsl(25, 97%, 53%);
+  background: #ffffff;
+  text-decoration: none;
 }
